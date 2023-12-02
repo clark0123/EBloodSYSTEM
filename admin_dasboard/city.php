@@ -24,7 +24,7 @@
                         <th>Code</th>
                         <th>City Name</th>
                         <th>State Name</th>
-                        <th>Action</th>
+                        <th>Action-</th>
                     </tr>
                 </thead>
                 <tbody>
