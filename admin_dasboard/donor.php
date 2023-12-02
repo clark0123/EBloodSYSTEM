@@ -60,6 +60,8 @@
       		<button type="button" data-toggle="modal" data-target="#editdonor<?php echo $row['donor_id'];?>" class="btn btn-warning">Edit</button>
 
 
+          
+          /* kini nga button aho ge change*/
           <button type="button" class="btn btn-default" data-toggle="modal" data-target="#active<?php echo $row['donor_id']?>" <?php if($row['status'] == '1') { echo 'disabled'; }?>><?php
           if($row['status'] == '1') { echo 'Activated'; } else {  echo 'Active'; }
            ?></button></td>
