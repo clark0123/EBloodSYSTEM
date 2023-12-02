@@ -29,7 +29,7 @@
                 </thead>
                 <tbody>
                     <?php
-                    $city = $connection->query("SELECT state.state_id, state.state_name, city.city_id, city.city_code, city.city_name, city.state_fk FROM city LEFT JOIN state ON state.state_id=city.state_fk");
+                    $city = $connection->query("SELECT state.state_id, state.state_name, city.city_id, city.city_code, city.city_name, city.state_fk FROM city RIGHT JOIN state ON state.state_id=city.state_fk");
                     while ($row = $city->fetch_array()) {
                     ?>
 
