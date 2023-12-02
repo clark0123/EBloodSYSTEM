@@ -112,7 +112,7 @@
 <!-- add city modal -->
 <div class="modal fade" id="addcity" role="dialog">
     <div class="modal-dialog">
-
+/* kriseth*/
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
